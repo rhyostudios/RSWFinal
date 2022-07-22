@@ -111,10 +111,15 @@
     margin-top: 4px;
     cursor: pointer;
     transition: 200ms ease-in-out;
+    height: 36px;
+    color: white;
+}
+
+.navbar-menu-item:hover {
+    color: rgb(180, 180, 255);
 }
 
 .navbar-menu-socials{
-    flex-direction: column;
     margin-top: 12px;
 }
 
@@ -124,4 +129,27 @@
 
 .navbar-menu-social-item{
     margin: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-menu-social-item-visible{
+    position: relative;
+    transition: 250ms ease-in-out;
+}
+
+.navbar-menu-social-item:hover .navbar-menu-social-item-visible{
+    transform: translateY(-32px);
+    transition: 250ms ease-in-out;
+}
+
+.navbar-menu-social-item-hidden{
+    position: absolute;
+    top: 32px;
+    transition: 250ms ease-in-out;
+}
+
+.navbar-menu-social-item:hover .navbar-menu-social-item-hidden{
+    transform: translateY(-32px);
+    transition: 250ms ease-in-out;
 }

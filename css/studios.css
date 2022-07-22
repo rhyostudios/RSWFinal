@@ -27,7 +27,7 @@
 .studio-a-header{
     font-weight: 700;
     font-size: 48px;
-    line-height: 64px;
+    /* line-height: 64px; */
 }
 .studio-a-info{
     font-weight: 200;
@@ -65,20 +65,22 @@
 }
 .studio-a-spec-sheet{
     display: flex;
+    flex-wrap: wrap;
 }
 .studio-a-spec-sheet-item{
     margin-right: 48px;
+    margin-top: 24px;
 }
 
 .studio-a-cont-b{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 36px;
+    margin-top: 12px;
 }
 
 #studio-a-spec-sheet-header{
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
     font-size: 42px;
 }
 
