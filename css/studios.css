@@ -8,14 +8,21 @@
 .studio-a-cont-a{
     display: flex;
 }
-.studio-a-spec-sheet-right , .studio-a-img{
+
+.studio-a-spec-sheet-left{
+    height: 480px;
+    width: 45vw;
+}
+.studio-a-spec-sheet-right{
+    width: 55vw;
+    height: 480px;
+}
+.studio-a-img{
     height: 480px;
     width: 55vw;
-    overflow: hidden;
-    position: relative;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
 }
 
 #studio-a-img-1{
